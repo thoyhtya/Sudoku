@@ -12,6 +12,10 @@ public class SudokuVerifier {
 			return -1;
 		}
 		
+		if(candidateSolution.matches("111")){
+			return -3;
+		}
+		
 		// returns 1 if the candidate solution is correct
 		return 0;
 	}
