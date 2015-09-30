@@ -22,6 +22,7 @@ public class SudokuVerifier {
 	}
 	
 	public Boolean hasNumberOnlyOnce(String asd){
+		String[] tried;
 		return true;
 	}
 }
