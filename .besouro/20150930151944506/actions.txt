@@ -76,3 +76,6 @@ RefactoringAction 1443617655267 TestSudokuVerifier.java RENAME testVerifyex()=>v
 RefactoringAction 1443617657279 TestSudokuVerifier.java RENAME testVerifyEx()=>void testVerifyExpect() METHOD
 RefactoringAction 1443617658793 TestSudokuVerifier.java RENAME testVerifyExpect()=>void testVerifyExpectZero() METHOD
 EditAction 1443617661662 TestSudokuVerifier.java 1051 5 11 5
+UnitTestCaseAction 1443617664085 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443617664085 TestSudokuVerifier FAIL
+EditAction 1443617705548 SudokuVerifier.java 606 2 5 0
