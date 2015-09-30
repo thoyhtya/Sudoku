@@ -129,3 +129,6 @@ RefactoringAction 1443619519471 TestSudokuVerifier.java RENAME testVerifySubgrid
 RefactoringAction 1443619521983 TestSudokuVerifier.java RENAME testVerifySubgridFirstAndTenth()=>void testVerifySubgridFirstAndTenthAre() METHOD
 RefactoringAction 1443619523504 TestSudokuVerifier.java RENAME testVerifySubgridFirstAndTenthAre()=>void testVerifySubgridFirstAndTenthAreSame() METHOD
 EditAction 1443619550647 TestSudokuVerifier.java 1410 7 15 7
+UnitTestCaseAction 1443619553658 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443619553659 Rerun TestSudokuVerifier (Failed Tests first) FAIL
+EditAction 1443619598319 TestSudokuVerifier.java 1412 7 15 7

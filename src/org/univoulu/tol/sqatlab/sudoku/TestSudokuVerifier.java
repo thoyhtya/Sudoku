@@ -44,7 +44,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testVerifySubgridFirstAndTenthAreSame() {
 		SudokuVerifier verifier = new SudokuVerifier();
-		assertEquals(-2, verifier.verify("4173698254"));
+		assertEquals(-2, verifier.verify("417369825498"));
 	}
 	
 
