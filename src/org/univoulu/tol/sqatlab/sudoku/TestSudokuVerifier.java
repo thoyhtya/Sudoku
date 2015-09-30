@@ -11,9 +11,10 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testVerifyLength1Return() {
+	public void testVerifyCharacters() {
 		SudokuVerifier verifier = new SudokuVerifier();
 		int result = verifier.verify("a");
+		assertEquals(-1, result);
 	}
 
 }

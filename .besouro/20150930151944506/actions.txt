@@ -1,2 +1,13 @@
 FileOpenedAction 1443615586038 TestSudokuVerifier.java 385 2 3 0
 EditAction 1443615901559 SudokuVerifier.java 322 1 2 0
+CompilationAction 1443615902381 SudokuVerifier.java
+UnitTestCaseAction 1443615903497 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443615903506 TestSudokuVerifier FAIL
+CompilationAction 1443615956693 SudokuVerifier.java
+RefactoringAction 1443615979515 TestSudokuVerifier.java RENAME testVerifyLength1Return()=>void testVerifyCharacte() METHOD
+RefactoringAction 1443615982032 TestSudokuVerifier.java RENAME testVerifyCharacte()=>void testVerifyC() METHOD
+RefactoringAction 1443615984048 TestSudokuVerifier.java RENAME testVerifyC()=>void testVerify()/2 METHOD
+RefactoringAction 1443615987062 TestSudokuVerifier.java RENAME testVerify()/2=>void testVerifyCharacters() METHOD
+UnitTestCaseAction 1443616046397 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443616046398 TestSudokuVerifier FAIL
+EditAction 1443616207168 SudokuVerifier.java 401 1 2 0
