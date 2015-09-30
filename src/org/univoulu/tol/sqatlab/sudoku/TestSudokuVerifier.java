@@ -6,7 +6,7 @@ import org.junit.Test;
 public class TestSudokuVerifier {
 
 	@Test
-	public void testVerify() {
+	public void testVerifyExpectZero() {
 		String correctString = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		SudokuVerifier verifier = new SudokuVerifier();
 		assertEquals(0, verifier.verify(correctString));
