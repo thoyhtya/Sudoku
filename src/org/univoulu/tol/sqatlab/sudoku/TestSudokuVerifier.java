@@ -34,5 +34,6 @@ public class TestSudokuVerifier {
 		SudokuVerifier verifier = new SudokuVerifier();
 		assertEquals(-3, verifier.verify("22"));
 	}
+	
 
 }
