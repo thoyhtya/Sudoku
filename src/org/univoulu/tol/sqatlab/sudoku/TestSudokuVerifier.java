@@ -7,14 +7,15 @@ public class TestSudokuVerifier {
 
 	@Test
 	public void testVerify() {
+		String correctString = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		SudokuVerifier verifier = new SudokuVerifier();
+		assertEquals(0, verifier.verify(correctString));
 	}
 	
 	@Test
 	public void testVerifyCharacters() {
 		SudokuVerifier verifier = new SudokuVerifier();
-		int result = verifier.verify("a");
-		assertEquals(-1, result);
+		assertEquals(-1, verifier.verify("a"));
 	}
 
 }

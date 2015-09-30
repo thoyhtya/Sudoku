@@ -11,3 +11,7 @@ RefactoringAction 1443615987062 TestSudokuVerifier.java RENAME testVerify()/2=>v
 UnitTestCaseAction 1443616046397 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443616046398 TestSudokuVerifier FAIL
 EditAction 1443616207168 SudokuVerifier.java 401 1 2 0
+UnitTestCaseAction 1443616211605 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443616211606 TestSudokuVerifier OK
+UnitTestCaseAction 1443616311366 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443616311368 TestSudokuVerifier OK
