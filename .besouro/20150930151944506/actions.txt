@@ -66,3 +66,6 @@ RefactoringAction 1443617465490 SudokuVerifier.java RENAME hasNumber=>Boolean ha
 RefactoringAction 1443617466500 SudokuVerifier.java RENAME hasNumberOnlyOnce=>Boolean hasNumberOnlyOnce() METHOD
 RefactoringAction 1443617475037 SudokuVerifier.java RENAME hasNumberOnlyOnce()=>Boolean hasNumberOnlyOnce(String) METHOD
 EditAction 1443617502018 SudokuVerifier.java 563 2 4 0
+UnitTestCaseAction 1443617505432 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443617505433 TestSudokuVerifier FAIL
+EditAction 1443617606561 SudokuVerifier.java 605 2 5 0

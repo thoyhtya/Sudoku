@@ -12,7 +12,8 @@ public class SudokuVerifier {
 			return -1;
 		}
 		
-		if(hasNumberOnlyOnce(candidateSolution)){
+		String[] lines = candidateSolution.split("",9);
+		if(hasNumberOnlyOnce(lines[0])){
 			return -3;
 		}
 		
