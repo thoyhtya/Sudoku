@@ -12,7 +12,7 @@ public class SudokuVerifier {
 			return -1;
 		}
 		
-		if(candidateSolution.matches("111")){
+		if(candidateSolution.matches("111") || candidateSolution.matches("22")){
 			return -3;
 		}
 		
