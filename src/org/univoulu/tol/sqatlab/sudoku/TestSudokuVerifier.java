@@ -38,7 +38,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testVerifyLineHasDigitsErrorAtSecondLine() {
 		SudokuVerifier verifier = new SudokuVerifier();
-		assertEquals(-3, verifier.verify("41736982599"));
+		assertEquals(-3, verifier.verify("417369825123456799"));
 	}
 	
 
