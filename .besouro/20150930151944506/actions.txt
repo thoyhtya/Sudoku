@@ -89,3 +89,7 @@ RefactoringAction 1443618258764 SudokuVerifier.java ADD import java.util.ArrayLi
 UnitTestCaseAction 1443618547389 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443618547390 TestSudokuVerifier FAIL
 EditAction 1443618634674 SudokuVerifier.java 981 2 8 0
+CompilationAction 1443618635004 SudokuVerifier.java
+UnitTestCaseAction 1443618635793 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443618635794 TestSudokuVerifier FAIL
+EditAction 1443618654487 SudokuVerifier.java 981 2 8 0

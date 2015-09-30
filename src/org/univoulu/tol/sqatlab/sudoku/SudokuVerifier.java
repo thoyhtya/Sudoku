@@ -16,7 +16,7 @@ public class SudokuVerifier {
 		}
 		
 		String[] lines = candidateSolution.split("",9);
-		System.Out.Print(lines[0]);
+		System.out.Print(lines[0]);
 		if(!hasNumberOnlyOnce(lines[0])){
 			return -3;
 		}
