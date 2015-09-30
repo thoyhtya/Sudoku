@@ -30,9 +30,9 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testVerifyLineHasDigitsOnlyOnceWThreeTwos() {
+	public void testVerifyLineHasDigitsOnlyOnceWTwoTwos() {
 		SudokuVerifier verifier = new SudokuVerifier();
-		assertEquals(-3, verifier.verify("222"));
+		assertEquals(-3, verifier.verify("22"));
 	}
 
 }

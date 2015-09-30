@@ -41,3 +41,6 @@ RefactoringAction 1443616914994 TestSudokuVerifier.java RENAME testVerifyLineHas
 RefactoringAction 1443616918509 TestSudokuVerifier.java RENAME testVerifyLineHasDigitsOnlyOnce()=>void testVerifyLineHasDigitsOnlyOnceW() METHOD
 RefactoringAction 1443616924528 TestSudokuVerifier.java RENAME testVerifyLineHasDigitsOnlyOnceW()=>void testVerifyLineHasDigitsOnlyOnceWThreeTwos() METHOD
 EditAction 1443616927234 TestSudokuVerifier.java 1041 5 11 5
+RefactoringAction 1443616936080 TestSudokuVerifier.java RENAME testVerifyLineHasDigitsOnlyOnceWThreeTwos()=>void testVerifyLineHasDigitsOnlyOnceWTTwoTwos() METHOD
+RefactoringAction 1443616940098 TestSudokuVerifier.java RENAME testVerifyLineHasDigitsOnlyOnceWTTwoTwos()=>void testVerifyLineHasDigitsOnlyOnceWTwoTwos() METHOD
+EditAction 1443616943943 TestSudokuVerifier.java 1038 5 11 5
