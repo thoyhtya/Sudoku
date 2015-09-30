@@ -160,3 +160,15 @@ EditAction 1443620070458 TestSudokuVerifier.java 1433 7 15 7
 UnitTestCaseAction 1443620073911 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443620073912 Rerun TestSudokuVerifier (Failed Tests first) FAIL
 EditAction 1443620110697 TestSudokuVerifier.java 1418 7 15 7
+UnitTestCaseAction 1443620113070 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443620113071 Rerun TestSudokuVerifier (Failed Tests first) OK
+RefactoringAction 1443620164475 SudokuVerifier.java ADD String FIELD
+RefactoringAction 1443620164476 SudokuVerifier.java ADD int i FIELD
+RefactoringAction 1443620169505 SudokuVerifier.java RENAME lines=>p FIELD
+RefactoringAction 1443620177544 SudokuVerifier.java RENAME String=>p Boolean FIELD
+RefactoringAction 1443620191593 SudokuVerifier.java RENAME String=>Boolean checkLines FIELD
+RefactoringAction 1443620199143 SudokuVerifier.java RENAME checkLines()=>Boolean checkLines(String) METHOD
+RefactoringAction 1443620242955 SudokuVerifier.java RENAME checkLines(String)=>Boolean error(String) METHOD
+RefactoringAction 1443620243971 SudokuVerifier.java RENAME error(String)=>Boolean errorIn(String) METHOD
+RefactoringAction 1443620245487 SudokuVerifier.java RENAME errorIn(String)=>Boolean errorInLines(String) METHOD
+EditAction 1443620290442 SudokuVerifier.java 1300 3 10 0

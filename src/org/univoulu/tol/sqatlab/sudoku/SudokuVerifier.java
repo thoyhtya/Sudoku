@@ -18,14 +18,12 @@ public class SudokuVerifier {
 		if(candidateSolution.charAt(0) == candidateSolution.charAt(9)){
 			return -2;
 		}
-		
-		String[] lines = candidateSolution.split("(?<=\\G.{9})");
-		for(int i = 0; i<lines.length; i++){
-			if(!hasNumberOnlyOnce(lines[i])){
-				//returns -3 if candidate has multiple same digits in same row
-				return -3;
-			}
+				
+		if(errorInLines(candidateSolution)){
+			return -3;
 		}
+		
+		
 		// returns 1 if the candidate solution is correct
 		return 0;
 	}
@@ -44,5 +42,16 @@ public class SudokuVerifier {
 		}
 		
 		return true;
+	}
+	
+	public Boolean errorInLines(String candidate){
+		String[] lines = candidate.split("(?<=\\G.{9})");
+		for(int i = 0; i<lines.length; i++){
+			if(!hasNumberOnlyOnce(lines[i])){
+				//returns -3 if candidate has multiple same digits in same row
+				return true;
+			}
+		}
+		return false;
 	}
 }
