@@ -54,4 +54,8 @@ public class SudokuVerifier {
 		}
 		return false;
 	}
+	
+	public Boolean errorInColumns(String candidate){
+		return false;
+	}
 }

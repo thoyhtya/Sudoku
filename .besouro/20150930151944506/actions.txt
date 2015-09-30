@@ -179,3 +179,8 @@ EditAction 1443620480635 SudokuVerifier.java 1384 3 10 0
 UnitTestCaseAction 1443620483676 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443620483677 Rerun TestSudokuVerifier (Failed Tests first) OK
 EditAction 1443620532404 SudokuVerifier.java 1359 3 10 0
+CompilationAction 1443620532701 SudokuVerifier.java
+RefactoringAction 1443620545578 SudokuVerifier.java ADD Boolean errorInColumns FIELD
+RefactoringAction 1443620547090 SudokuVerifier.java RENAME errorInColumns=>Boolean errorInColumns() METHOD
+RefactoringAction 1443620551602 SudokuVerifier.java RENAME errorInColumns()=>Boolean errorInColumns(String) METHOD
+EditAction 1443620563308 SudokuVerifier.java 1434 4 11 0
