@@ -15,3 +15,10 @@ UnitTestCaseAction 1443616211605 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443616211606 TestSudokuVerifier OK
 UnitTestCaseAction 1443616311366 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443616311368 TestSudokuVerifier OK
+RefactoringAction 1443616672164 TestSudokuVerifier.java ADD void testVerifyCharacters()/2 METHOD
+RefactoringAction 1443616679179 TestSudokuVerifier.java RENAME testVerifyCharacters()/2=>void testVerifyLine() METHOD
+RefactoringAction 1443616680697 TestSudokuVerifier.java RENAME testVerifyLine()=>void testVerifyLineHas() METHOD
+RefactoringAction 1443616685225 TestSudokuVerifier.java RENAME testVerifyLineHas()=>void testVerifyLineHasDigits() METHOD
+RefactoringAction 1443616686736 TestSudokuVerifier.java RENAME testVerifyLineHasDigits()=>void testVerifyLineHasDigitsOnly() METHOD
+RefactoringAction 1443616688247 TestSudokuVerifier.java RENAME testVerifyLineHasDigitsOnly()=>void testVerifyLineHasDigitsOnlyOnce() METHOD
+EditAction 1443616719356 TestSudokuVerifier.java 711 3 7 3
