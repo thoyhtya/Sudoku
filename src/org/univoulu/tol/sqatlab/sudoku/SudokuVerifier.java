@@ -16,11 +16,11 @@ public class SudokuVerifier {
 		}
 		
 		String[] lines = candidateSolution.split("(?<=\\G.{9})");
-		System.out.print(lines[0]);
-		if(!hasNumberOnlyOnce(lines[0])){
-			return -3;
+		for(int i = 0; i<9; i++){
+			if(!hasNumberOnlyOnce(lines[0])){
+				return -3;
+			}
 		}
-		
 		// returns 1 if the candidate solution is correct
 		return 0;
 	}
