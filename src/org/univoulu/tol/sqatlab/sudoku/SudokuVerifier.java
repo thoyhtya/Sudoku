@@ -16,7 +16,7 @@ public class SudokuVerifier {
 		}
 		
 		//returns -2 if candidate has multiple same digits in same vertical column
-		if(candidateSolution.charAt(0) == candidateSolution.charAt(9)){
+		if(errorInColumns(candidateSolution)){
 			return -2;
 		}
 		
