@@ -57,3 +57,12 @@ RefactoringAction 1443617085582 TestSudokuVerifier.java RENAME testVerifyLineHas
 RefactoringAction 1443617095596 TestSudokuVerifier.java RENAME testVerifyLineHasDigitsOnlyOnceAtLineChange_expect()=>void testVerifyLineHasDigitsOnlyOnceAtLineChange_expectingCorrect() METHOD
 RefactoringAction 1443617183725 TestSudokuVerifier.java REMOVE testVerifyLineHasDigitsOnlyOnceAtLineChange_expectingCorrect() METHOD
 EditAction 1443617207959 TestSudokuVerifier.java 1041 5 11 5
+UnitTestCaseAction 1443617211215 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443617211216 TestSudokuVerifier OK
+RefactoringAction 1443617459949 SudokuVerifier.java ADD Boolean has FIELD
+RefactoringAction 1443617460964 SudokuVerifier.java RENAME has=>Boolean hasN FIELD
+RefactoringAction 1443617462975 SudokuVerifier.java RENAME hasN=>Boolean hasNumber FIELD
+RefactoringAction 1443617465490 SudokuVerifier.java RENAME hasNumber=>Boolean hasNumberOnlyOnce FIELD
+RefactoringAction 1443617466500 SudokuVerifier.java RENAME hasNumberOnlyOnce=>Boolean hasNumberOnlyOnce() METHOD
+RefactoringAction 1443617475037 SudokuVerifier.java RENAME hasNumberOnlyOnce()=>Boolean hasNumberOnlyOnce(String) METHOD
+EditAction 1443617502018 SudokuVerifier.java 563 2 4 0

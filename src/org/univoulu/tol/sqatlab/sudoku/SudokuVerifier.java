@@ -12,11 +12,15 @@ public class SudokuVerifier {
 			return -1;
 		}
 		
-		if(candidateSolution.matches("111") || candidateSolution.matches("22")){
+		if(hasNumberOnlyOnce(candidateSolution)){
 			return -3;
 		}
 		
 		// returns 1 if the candidate solution is correct
 		return 0;
+	}
+	
+	public Boolean hasNumberOnlyOnce(String asd){
+		return true;
 	}
 }
