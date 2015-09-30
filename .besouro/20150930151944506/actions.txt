@@ -118,3 +118,14 @@ EditAction 1443619085848 SudokuVerifier.java 993 2 7 0
 UnitTestCaseAction 1443619089183 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443619089184 Rerun TestSudokuVerifier (Failed Tests first) OK
 EditAction 1443619189457 SudokuVerifier.java 1061 2 7 0
+UnitTestCaseAction 1443619192410 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443619192411 Rerun TestSudokuVerifier (Failed Tests first) OK
+RefactoringAction 1443619474820 TestSudokuVerifier.java ADD void testVerifyLineHasDigitsErrorAtSecondLine()/2 METHOD
+RefactoringAction 1443619499333 TestSudokuVerifier.java RENAME testVerifyLineHasDigitsErrorAtSecondLine()/2=>void testVerifySub() METHOD
+RefactoringAction 1443619500848 TestSudokuVerifier.java RENAME testVerifySub()=>void testVerifySubgrid() METHOD
+RefactoringAction 1443619515940 TestSudokuVerifier.java RENAME testVerifySubgrid()=>void testVerifySubgridFirst() METHOD
+RefactoringAction 1443619516960 TestSudokuVerifier.java RENAME testVerifySubgridFirst()=>void testVerifySubgridFirstAnd() METHOD
+RefactoringAction 1443619519471 TestSudokuVerifier.java RENAME testVerifySubgridFirstAnd()=>void testVerifySubgridFirstAndTenth() METHOD
+RefactoringAction 1443619521983 TestSudokuVerifier.java RENAME testVerifySubgridFirstAndTenth()=>void testVerifySubgridFirstAndTenthAre() METHOD
+RefactoringAction 1443619523504 TestSudokuVerifier.java RENAME testVerifySubgridFirstAndTenthAre()=>void testVerifySubgridFirstAndTenthAreSame() METHOD
+EditAction 1443619550647 TestSudokuVerifier.java 1410 7 15 7
