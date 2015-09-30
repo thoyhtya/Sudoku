@@ -157,3 +157,6 @@ EditAction 1443620034081 TestSudokuVerifier.java 1422 7 15 7
 UnitTestCaseAction 1443620036982 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443620036984 Rerun TestSudokuVerifier (Failed Tests first) FAIL
 EditAction 1443620070458 TestSudokuVerifier.java 1433 7 15 7
+UnitTestCaseAction 1443620073911 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443620073912 Rerun TestSudokuVerifier (Failed Tests first) FAIL
+EditAction 1443620110697 TestSudokuVerifier.java 1418 7 15 7
