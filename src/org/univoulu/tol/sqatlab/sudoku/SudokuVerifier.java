@@ -15,7 +15,7 @@ public class SudokuVerifier {
 			return -1;
 		}
 		
-		String[] lines = candidateSolution.split("",9);
+		String[] lines = candidateSolution.split("(?<=\\G.{9})");
 		System.out.print(lines[0]);
 		if(!hasNumberOnlyOnce(lines[0])){
 			return -3;
