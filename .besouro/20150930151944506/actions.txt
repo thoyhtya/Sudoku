@@ -172,3 +172,6 @@ RefactoringAction 1443620242955 SudokuVerifier.java RENAME checkLines(String)=>B
 RefactoringAction 1443620243971 SudokuVerifier.java RENAME error(String)=>Boolean errorIn(String) METHOD
 RefactoringAction 1443620245487 SudokuVerifier.java RENAME errorIn(String)=>Boolean errorInLines(String) METHOD
 EditAction 1443620290442 SudokuVerifier.java 1300 3 10 0
+UnitTestCaseAction 1443620293882 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443620293883 Rerun TestSudokuVerifier (Failed Tests first) OK
+EditAction 1443620333113 SudokuVerifier.java 1306 3 10 0
