@@ -100,3 +100,9 @@ UnitTestSessionAction 1443618664416 TestSudokuVerifier FAIL
 UnitTestCaseAction 1443618733712 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443618733775 TestSudokuVerifier (Failed Tests first) FAIL
 EditAction 1443618861922 SudokuVerifier.java 991 2 8 0
+UnitTestCaseAction 1443618864297 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443618864304 Rerun TestSudokuVerifier (Failed Tests first) OK
+RefactoringAction 1443618917837 TestSudokuVerifier.java ADD void testVerifyLineHasDigitsOnlyOnceWTwoTwos()/2 METHOD
+RefactoringAction 1443618927850 TestSudokuVerifier.java RENAME testVerifyLineHasDigitsOnlyOnceWTwoTwos()/2=>void testVerifyLineHasDigitsErrorAtSecond() METHOD
+RefactoringAction 1443618929365 TestSudokuVerifier.java RENAME testVerifyLineHasDigitsErrorAtSecond()=>void testVerifyLineHasDigitsErrorAtSecondLine() METHOD
+EditAction 1443618951834 TestSudokuVerifier.java 1229 6 13 6
