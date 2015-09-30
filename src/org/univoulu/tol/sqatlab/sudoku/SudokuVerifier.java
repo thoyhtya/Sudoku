@@ -7,7 +7,8 @@ public class SudokuVerifier {
 			//throw new InvalidParameterException("Candidate should be 81 characters");
 		//}
 		
-		if(!candidateSolution.matches("[0-9]+")){
+		//only numbers 1-9
+		if(!candidateSolution.matches("[1-9]+")){
 			return -1;
 		}
 		

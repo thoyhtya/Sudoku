@@ -22,3 +22,8 @@ RefactoringAction 1443616685225 TestSudokuVerifier.java RENAME testVerifyLineHas
 RefactoringAction 1443616686736 TestSudokuVerifier.java RENAME testVerifyLineHasDigits()=>void testVerifyLineHasDigitsOnly() METHOD
 RefactoringAction 1443616688247 TestSudokuVerifier.java RENAME testVerifyLineHasDigitsOnly()=>void testVerifyLineHasDigitsOnlyOnce() METHOD
 EditAction 1443616719356 TestSudokuVerifier.java 711 3 7 3
+UnitTestCaseAction 1443616730554 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443616730555 TestSudokuVerifier FAIL
+UnitTestCaseAction 1443616731591 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443616731592 TestSudokuVerifier FAIL
+EditAction 1443616787905 SudokuVerifier.java 423 1 2 0
