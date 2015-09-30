@@ -26,13 +26,13 @@ public class TestSudokuVerifier {
 	@Test
 	public void testVerifyLineHasDigitsOnlyOnceWThreeOnes() {
 		SudokuVerifier verifier = new SudokuVerifier();
-		assertEquals(-3, verifier.verify("111"));
+		assertEquals(-3, verifier.verify("1111111111"));
 	}
 	
 	@Test
 	public void testVerifyLineHasDigitsOnlyOnceWTwoTwos() {
 		SudokuVerifier verifier = new SudokuVerifier();
-		assertEquals(-3, verifier.verify("22"));
+		assertEquals(-3, verifier.verify("22222222222222"));
 	}
 	
 	@Test
