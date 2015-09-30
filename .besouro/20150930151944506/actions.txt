@@ -27,3 +27,6 @@ UnitTestSessionAction 1443616730555 TestSudokuVerifier FAIL
 UnitTestCaseAction 1443616731591 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443616731592 TestSudokuVerifier FAIL
 EditAction 1443616787905 SudokuVerifier.java 423 1 2 0
+RefactoringAction 1443616801026 TestSudokuVerifier.java ADD void testVerifyCharacters()/2 METHOD
+RefactoringAction 1443616805043 TestSudokuVerifier.java RENAME testVerifyCharacters()/2=>void testVerifyCharactersZero() METHOD
+EditAction 1443616809991 TestSudokuVerifier.java 860 4 9 4

@@ -17,6 +17,11 @@ public class TestSudokuVerifier {
 		SudokuVerifier verifier = new SudokuVerifier();
 		assertEquals(-1, verifier.verify("a"));
 	}
+	@Test
+	public void testVerifyCharactersZero() {
+		SudokuVerifier verifier = new SudokuVerifier();
+		assertEquals(-1, verifier.verify("0"));
+	}
 	
 	@Test
 	public void testVerifyLineHasDigitsOnlyOnce() {
