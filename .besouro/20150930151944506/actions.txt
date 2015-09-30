@@ -149,3 +149,8 @@ UnitTestCaseAction 1443619951764 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443619951765 Rerun TestSudokuVerifier (Failed Tests first) FAIL
 EditAction 1443620006484 TestSudokuVerifier.java 1430 7 15 7
 EditAction 1443620008375 SudokuVerifier.java 1163 2 8 0
+UnitTestCaseAction 1443620009605 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443620009606 Rerun TestSudokuVerifier (Failed Tests first) FAIL
+RefactoringAction 1443620024378 TestSudokuVerifier.java RENAME testVerifyLineHasDigitsOnlyOnceWThreeOnes()=>void testVerifyLineHasDigitsOnlyOnceOnes() METHOD
+RefactoringAction 1443620029890 TestSudokuVerifier.java RENAME testVerifyLineHasDigitsOnlyOnceOnes()=>void testVerifyLineHasDigitsOnlyOnceWOnes() METHOD
+EditAction 1443620034081 TestSudokuVerifier.java 1422 7 15 7
