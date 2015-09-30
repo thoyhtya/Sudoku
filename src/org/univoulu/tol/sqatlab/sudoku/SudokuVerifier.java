@@ -15,7 +15,7 @@ public class SudokuVerifier {
 			return -1;
 		}
 		
-		if(candidateSolution.charAt(0) == candidateSolution.charAt(9)){
+		if(candidateSolution.charAt(0) == candidateSolution.charAt(10)){
 			return -2;
 		}
 		
