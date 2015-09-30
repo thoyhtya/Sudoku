@@ -16,7 +16,7 @@ public class SudokuVerifier {
 		}
 		
 		String[] lines = candidateSolution.split("(?<=\\G.{9})");
-		for(int i = 0; i<9; i++){
+		for(int i = 0; i<lines.length; i++){
 			if(!hasNumberOnlyOnce(lines[i])){
 				//returns -3 if candidate has multiple same digits in same row
 				return -3;
